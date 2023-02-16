@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: Uses inline assembly to prnt string using syscall func' (x86_64)
+ * Description: Uses inline assembly to prnt string usng syscall func' (x86_64)
  * Return: Always 1 (Success)
  */
 
@@ -19,5 +19,5 @@ int main(void)
 		"D" (fd),
 		"S" (s),
 		"d" (l));
-		return (1);
+	return (1);
 }

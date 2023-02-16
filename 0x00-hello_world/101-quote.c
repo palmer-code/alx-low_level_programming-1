@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: Uses inline assembly to print a string using syscall function in x86_64 architecture.
+ * Description:Uses inline assembly to print string using syscall function in (x86_64)
  * Return: Always 1 (Success)
  */
 

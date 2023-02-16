@@ -2,8 +2,7 @@
 
 /**
  * main - Entry point
- *
- * Description: This function prints the sizes of various data types to the console using the printf() function and the sizeof operator.
+ * Description: Prints data types using printf() function & sizeof operator
  * Return: Always 0 (Success)
  */
 

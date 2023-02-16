@@ -5,6 +5,7 @@
  * Description: Uses inline assembly to print a string using syscall function in x86_64 architecture.
  * Return: Always 1 (Success)
  */
+
 int main(void)
 {
 	char *s = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
@@ -15,8 +16,8 @@ int main(void)
 	__asm__ ("syscall"
 		: "=a" (ret)
 		: "a" (syscall),
-		  "D" (fd),
-		  "S" (s),
-		  "d" (1));
-		  (return (1);
+		"D" (fd),
+		"S" (s),
+		"d" (l));
+		return (1);
 }

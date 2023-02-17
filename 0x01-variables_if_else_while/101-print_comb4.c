@@ -2,7 +2,7 @@
 
 /**
  * Main - Entry point of the program
- * Description: Prints all unique combinations of three digits in ascending
+ * 
  * Return: Always 0 (Success)
  */
 

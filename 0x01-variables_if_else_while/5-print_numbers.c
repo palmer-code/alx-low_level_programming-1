@@ -9,14 +9,11 @@
 
 int main(void)
 {
-	int ch;
+	int a;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (a = 0; a < 10; a++)
 	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
+		printf("%d", a);
 	}
 	putchar('\n');
 	return (0);

@@ -3,7 +3,7 @@
 
 /**
  * main - Entry point
- * Description: Prnts NOs frm 0-9 sprtd/comma&space aftr each no follwd/newlin char
+ * Description: Prnts NOs frm 0-9 sprtd/comma&spac aftr ech no flwd/newlin char
  * Return: Always 0 (success)
  */
 

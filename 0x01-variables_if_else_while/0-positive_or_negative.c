@@ -4,7 +4,7 @@
 
 /**
  * main - Entry point
- * Description: This takes an integer as input & prnts whether the no. is +ve or +ve
+ * Description: This takes integer as input & prnts whether the no s +ve or +ve
  * Return: Always 0 (Success)
  */
 

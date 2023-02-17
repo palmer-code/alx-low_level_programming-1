@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * Main - Entry point
- * Description: Prints 3 combination of numbers
- * Return: Always (Success)
+ * Main - Entry point of the program
+ * Description: Prints all unique combinations of three digits in ascending
+ * Return: Always 0 (Success)
  */
 
 int main(void)

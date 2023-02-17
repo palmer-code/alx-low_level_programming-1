@@ -3,7 +3,7 @@
 
 /**
  * main - prints hexadecimal numbers
- * Description: This program prints the digits of hexadecimal numbers from 0 to f
+ * Description: This prints the digits of hexadecimal numbers from 0 to f
  * Return: Always 0 (Success)
  */
 

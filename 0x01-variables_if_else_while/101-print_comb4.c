@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * Main - Entry point of the program
- * Description: Prints all unique combinations of three digits in ascending 
+ * Main - Entry point of the progra
+ * Description: Prints all unique combinations of three digits in ascending
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int c, i, k;

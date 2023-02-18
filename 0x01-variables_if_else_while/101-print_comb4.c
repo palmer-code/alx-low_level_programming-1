@@ -5,7 +5,7 @@
  * Description: Prints all unique combinations of three digits in ascending
  * Return: Always 0 (Success)
  */
-int main(void) // description
+int main(void) /**  description */
 {
 	int c, i, k;
 

@@ -18,6 +18,5 @@ int main(void)
 		_putchar(c);
 		i++;
 	}
-	_putchar('\n'); // Add a newline character after the string is printed
 	return (0);
 }

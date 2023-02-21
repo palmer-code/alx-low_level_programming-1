@@ -2,13 +2,13 @@
 
 /**
  * main - Entry point
- * Description: This program prints 'Holberton \n' to the console
+ * Description: This program prints 'Main \n' to the console
  * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	char str[] = "Holberton\n";
+	char str[] = "Main\n";
 	int i = 0;
 
 	while (str[i] != '\0')

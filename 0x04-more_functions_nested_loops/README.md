@@ -1,8 +1,8 @@
 # C - More functions, more nested loops
 
-The following are the questions for the completed task above.
+# The following are the questions for the completed task above.
 
-Requirements - General
+# Requirements - General
 
 	Allowed editors: vi, vim, emacs
 	All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -20,7 +20,7 @@ Requirements - General
 
 
 
-Task 0. isupper
+# Task 0. isupper
 
 	Write a function that checks for uppercase character.
 		Prototype: int _isupper(int c);
@@ -28,7 +28,7 @@ Task 0. isupper
 		Returns 0 otherwise
 	FYI: The standard library provides a similar function: isupper. Run man isupper to learn more.
 
-Task 1. isdigit
+# Task 1. isdigit
 
 	Write a function that checks for a digit (0 through 9).
 		Prototype: int _isdigit(int c);

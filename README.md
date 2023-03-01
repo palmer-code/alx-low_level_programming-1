@@ -17,6 +17,19 @@
 
   <p text-align="justify">These projects are freely available for use in in your learning process. The program in this Repo are written main in C, Shell and small HTML.</p>
   
+  
+    ###Topics
+    
+ <ul align="left">
+  <li>0x00-hello_world</li>
+  <li>0x01-variables_if_else_while</li>
+  <li>0x02-functions_nested_loops</li>
+  <li>0x03-debugging</li>
+  <li>0x04-more_functions_nested_loops</li>
+  <li>0x05-pointers_arrays_strings</li>
+  <li>README.md</li>
+</ul>
+  
 </div>
 
 

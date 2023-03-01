@@ -1,4 +1,4 @@
-<h1 align="center">Low Level Programming</h1> <br/>
+<h1 align="center">Low Level Programming</h1>
 <h2 align="center">Connect with me</h2>
 
 <div align="center">
@@ -11,7 +11,7 @@
   [![GitHub stars](https://img.shields.io/github/stars/Mugambi12/Public-Project-Materials?style=social)](https://github.com/Mugambi12/Public-Project-Materials) &nbsp;
   ![GitHub forks](https://img.shields.io/github/forks/Mugambi12/Public-Project-Materials?style=social)
 
-
+<br/>
 
   <h2 align="center">Low Level Programming Materials</h2>
 

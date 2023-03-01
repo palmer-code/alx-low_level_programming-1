@@ -16,9 +16,7 @@
   <h2 align="center">Low Level Programming Materials</h2>
 
   <p text-align="justify">These projects are freely available for use in in your learning process. The program in this Repo are written main in C, Shell and small HTML.</p>
-
-  <a href="https://github.com/Mugambi12"><strong>➥ Live Demo / My Profile</strong></a>
-
+  
 </div>
 
 

@@ -3,13 +3,13 @@
 
 <div align="center">
 
-  ![GitHub repo size](https://img.shields.io/github/repo-size/Mugambi12/Public-Project-Materials) &nbsp;
+  ![GitHub repo size](https://img.shields.io/github/repo-size/Mugambi12/alx-low_level_programming) &nbsp;
   [![Visit my website](https://img.shields.io/badge/Visit%20my%20website-Here-lightblue)](https://silasmugambi.pages.dev) &nbsp;
   [![Twitter Follow](https://img.shields.io/twitter/follow/Twitter?style=social)](https://twitter.com/intent/follow?screen_name=mugambimungiria) &nbsp;
   [![LinkedIn Follow](https://img.shields.io/badge/LinkedIn-Follow-blue)](https://www.linkedin.com/in/silasmugambi/) &nbsp;
   [![GitHub Profile](https://img.shields.io/github/followers/Mugambi12?style=social)](https://github.com/Mugambi12) &nbsp;
-  [![GitHub stars](https://img.shields.io/github/stars/Mugambi12/Public-Project-Materials?style=social)](https://github.com/Mugambi12/Public-Project-Materials) &nbsp;
-  ![GitHub forks](https://img.shields.io/github/forks/Mugambi12/Public-Project-Materials?style=social)
+  [![GitHub stars](https://img.shields.io/github/stars/Mugambi12/alx-low_level_programming?style=social)](https://github.com/Mugambi12/alx-low_level_programming) &nbsp;
+  ![GitHub forks](https://img.shields.io/github/forks/Mugambi12/alx-low_level_programming?style=social)
 
 <br/>
 
@@ -36,13 +36,13 @@ To run **these materials** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/Mugambi12/Public-Project-Materials.git
+sudo git clone https://github.com/Mugambi12/alx-low_level_programming.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/Mugambi12/Public-Project-Materials.git
+git clone https://github.com/Mugambi12/alx-low_level_programming.git
 ```
 
 

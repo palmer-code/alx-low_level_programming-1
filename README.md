@@ -20,16 +20,16 @@
   
 <h3 align="left">Topics</h3>
     
- <ul align="left">
-  <li>0x00-hello_world</li>
-  <li>0x01-variables_if_else_while</li>
-  <li>0x02-functions_nested_loops</li>
-  <li>0x03-debugging</li>
-  <li>0x04-more_functions_nested_loops</li>
-  <li>0x05-pointers_arrays_strings</li>
-  <li>0x06. C - More pointers, arrays and strings</li>
-  <li>README.md</li>
-</ul>
+ <ol align="left">
+  <li>0x00-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x00-hello_world">hello_world</a></li>
+    <li>0x01-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x01-variables_if_else_while">variables_if_else_while</a></li>
+    <li>0x02-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x02-functions_nested_loops">functions_nested_loops</a></li>
+    <li>0x03-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x03-debugging">debugging</a></li>
+    <li>0x04-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops">more_functions_nested_loops</a></li>
+    <li>0x05-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings">pointers_arrays_strings</a></li>
+    <li>0x06-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings"> C - More pointers, arrays and strings</a></li>
+    <li><a href="https://github.com/Mugambi12/alx-low_level_programming/blob/master/README.md">README.md</a></li>
+</ol>
   
 </div>
 

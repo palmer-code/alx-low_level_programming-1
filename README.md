@@ -27,6 +27,7 @@
   <li>0x03-debugging</li>
   <li>0x04-more_functions_nested_loops</li>
   <li>0x05-pointers_arrays_strings</li>
+  <li>0x06. C - More pointers, arrays and strings</li>
   <li>README.md</li>
 </ul>
   

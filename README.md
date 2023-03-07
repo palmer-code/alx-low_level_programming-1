@@ -28,8 +28,8 @@
     <li>0x04-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops">more_functions_nested_loops</a></li>
     <li>0x05-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings">pointers_arrays_strings</a></li>
     <li>0x06-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings"> C - More pointers, arrays and strings</a></li>
-    <li>0x06-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings"> 0x07. C - Even more pointers, arrays and strings</a></li>
-    <li><a href="https://github.com/Mugambi12/alx-low_level_programming/blob/master/README.md">README.md</a></li>
+    <li>0x07-<a href="https://github.com/Mugambi12/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings"> C - Even more pointers, arrays and strings</a></li>
+    <li>README.md<a href="https://github.com/Mugambi12/alx-low_level_programming/blob/master/README.md"></a></li>
 </ol>
   
 </div>

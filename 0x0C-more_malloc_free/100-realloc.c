@@ -1,58 +1,98 @@
-
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
- * _realloc - Reallocates a memory block using malloc and free.
- * @ptr: A pointer to the memory previously allocated.
- * @old_size: The size in bytes of the allocated space for ptr.
- * @new_size: The size in bytes for the new memory block.
+ * multiplies two positive numbers
+ * @num1: The first number to be multiplied
+ * @num2: The second number to be multiplied
  *
- * Return: If new_size == old_size - ptr.
- * If new_size == 0 and ptr is not NULL - NULL.
- * Otherwise - a pointer to the reallocated memory block.
+ * Return: The product of num1 and num2
  *
  * Author: Silas Mugambi
  */
-void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
+int mul(char *num1, char *num2)
 {
-	void *mem;
-	char *ptr_copy, *filler;
-	unsigned int index;
+  int len1 = 0, len2 = 0, i, j, k = 0, carry = 0, n1, n2, sum;
+  int *result;
 
-	if (new_size == old_size)
-		return (ptr);
+  while (num1[len1])
+    len1++;
+  while (num2[len2])
+    len2++;
 
-	if (ptr == NULL)
-	{
-		mem = malloc(new_size);
+  result = calloc(len1 + len2, sizeof(int));
 
-		if (mem == NULL)
-			return (NULL);
+  for (i = len1 - 1; i >= 0; i--)
+  {
+      carry = 0;
+      n1 = num1[i] - '0';
 
-		return (mem);
-	}
+      for (j = len2 - 1; j >= 0; j--)
+      {
+        n2 = num2[j] - '0';
+        sum = n1 * n2 + result[k] + carry;
+        carry = sum / 10;
+        result[k] = sum % 10;
+        k++;
+      }
+      if (carry > 0)
+      {
+        result[k] += carry;
+        carry = 0;
+      }
+      k = len1 - 1 - i + 1;
+  }
 
-	if (new_size == 0 && ptr != NULL)
-	{
-		free(ptr);
-		return (NULL);
-	}
+  for (i = k - 1; i >= 0; i--)
+  printf("%d", result[i]);
+  printf("\n");
+  free(result);
+  return 0;
+}
 
-	ptr_copy = ptr;
-	mem = malloc(sizeof(*ptr_copy) * new_size);
+/**
+ * checks if a string is a positive number
+ * @str: The string to be checked
+ *
+ * Return: 1 if str is a positive number, 0 otherwise
+ */
+int is_positive_number(char *str)
+{
+  int i;
 
-	if (mem == NULL)
-	{
-		free(ptr);
-		return (NULL);
-	}
+  for (i = 0; str[i]; i++)
+  {
+    if (!isdigit(str[i]))
+    return 0;
+  }
 
-	filler = mem;
+  return 1;
+}
 
-	for (index = 0; index < old_size && index < new_size; index++)
-		filler[index] = *ptr_copy++;
+/**
+ * main - Entry point. Multiplies two positive numbers.
+ * @argc: The number of arguments
+ * @argv: The array of arguments
+ *
+ * Return: 0 if successful, 98 otherwise
+ */
+int main(int argc, char **argv)
+{
+  if (argc != 3)
+  {
+    printf("Error\n");
+    return 98;
+  }
 
-	free(ptr);
-	return (mem);
+  if (!is_positive_number(argv[1]) || !is_positive_number(argv[2]))
+  {
+    printf("Error\n");
+    return 98;
+  }
+
+  mul(argv[1], argv[2]);
+
+  return 0;
 }

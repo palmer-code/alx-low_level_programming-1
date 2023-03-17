@@ -42,12 +42,12 @@ int find_len(char *str)
 
 /**
  * create_xarray - Creates an array of chars and initializes it with
- * the character 'x'. Adds a terminating null byte.
+ *                 the character 'x'. Adds a terminating null byte.
  *
  * @size: The size of the array to be initialized.
  *
  * Description: If there is insufficient space, the function
- * exits with a status of 98.
+ *              exits with a status of 98.
  *
  * Return: A pointer to the array.
  */
@@ -71,7 +71,7 @@ char *create_xarray(int size)
 
 /**
  * iterate_zeroes - Iterates through a string of numbers containing
- * leading zeroes until it hits a non-zero number.
+ *                  leading zeroes until it hits a non-zero number.
  *
  * @str: The string of numbers to be iterate through.
  *
@@ -90,7 +90,7 @@ char *iterate_zeroes(char *str)
  * @c: The character to be converted.
  *
  * Description: If c is a non-digit, the function
- * exits with a status of 98.
+ *              exits with a status of 98.
  * Return: The converted int.
  */
 int get_digit(char c)
@@ -114,7 +114,7 @@ int get_digit(char c)
  * @zeroes: The necessary number of leading zeroes.
  *
  * Description: If mult contains a non-digit, the function
- * exits with a status value of 98.
+ *              exits with a status value of 98.
  */
 void get_prod(char *prod, char *mult, int digit, int zeroes)
 {
@@ -203,7 +203,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
  * @argc: An array of pointers to the arguments.
  *
  * Description: If the number of arguments is incorrect or one number
- * contains non-digits, the function exits with a status of 98.
+ *              contains non-digits, the function exits with a status of 98.
  * Return: Always 0.
  */
 int main(int argc, char *argv[])
